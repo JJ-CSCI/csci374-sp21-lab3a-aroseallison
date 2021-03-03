@@ -43,7 +43,7 @@ let tests =
         Expect.floatClose Accuracy.high (yardToKilometer 1234.0) 1.1283696 "1234yd= 1.1283696km"
     );
     testCase "d11" (fun () ->
-        Expect.floatClose Accuracy.high (mileToMeter 5.0) 2682.24 "5mil = 2682.24m"
+        Expect.floatClose Accuracy.high (mileToMeter 5.0) 8046.72 "5mil = 8046.72m"
     );
     testCase "w1" (fun () ->
         Expect.floatClose Accuracy.high (ounceToGram 12.0) 340.1942775 "12oz = 340.1942775g"
